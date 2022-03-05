@@ -13,8 +13,8 @@ public class Rectangle {
     }
 
     public void display(){
-        System.out.println(length);
-        System.out.println(width);
+        System.out.println("The length of rectangle is: " + length);
+        System.out.println("The width of rectangle is: " + width);
     }
 
     public void setValues(int l, int w){
